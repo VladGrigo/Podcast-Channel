@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Podcast Channel</title>
+        <link rel="stylesheet" type="text/css" href="Estilos/style.css">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:500&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <link rel="shortcut icon" href="assets/logo.ico"/>
+    </head>
+    <body> 
+    <!-- cabecera de la web, con el logo y los botones de navegación de la página -->
+       <header>
+            <div>
+                    <img src="assets/logo.svg" alt="Podcast" id="logo">
+            </div>
+           <nav id="navigation">
+                <div>
+                        <label for="hamburger">&#9776;</label>
+                        <input type="checkbox" id="hamburger"/>
+                    <ul>
+                        <li><a class="active" href="#title1">Episodios</a></li>
+                        <li><a href="#title2">Nosotros</a></li>
+                        <li><a href="#podcasts">Podcasts</a></li>
+                        <li><a href="#temas">Tópicos</a></li>
+                    </ul>    
+                </div>
+            </nav>
+       </header> 
+    <!-- cuerpo principal del sitio --> 
+       <main> 
+           <div class="intro-part">
+                <h1 id="intro-title">Hello <s>world</s> pale blue dot <span id="point">.</span></h1>
+                <p id="intro">El portal de podcast que explora el mundo de la programación y la tecnología. Nuevos episodios todos los jueves cada 15 días</p>
+                <button class="button">Conocé más</button>
+            </div>
+            <div class="boxone">
+                <h2 id="title1">Episodios</h2>
+                <!-- lista de podcasts con sus respectivos links --> 
+            <div class="podcasts-list">
+                <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" class="podcasts-item" id="podcasts-item1" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" class="podcasts-item" id="podcasts-item2" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv" class="podcasts-item" id="podcasts-item3" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" class="podcasts-item" id="podcasts-item4" allow="encrypted-media"></iframe>
+            </div>    
+            </div>
+                <!-- segunda parte del sitio, imagen con un texto en la linea principal --> 
+            <div class="secondpart" id="title2">
+                    <img class="item" id="telephone" src="assets/phone.png" alt="telephone">
+                <div class="item" id="secondtext">
+                    <h2 id="second-title">De dónde venimos</h2>
+                    <p id="text">Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. <br><br> 
+                        Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+                </div>
+            </div>
+                <!-- tercera parte del sitio, presentacion de los Podcasts más populares --> 
+            <div class="thirdpart" id="podcasts">
+                <h2 class="title3">Invitadas/os estelares</h2>
+                <div class="images-list">
+                    <img src="assets/grace-hopper.png" alt="podcastimage1">
+                    <img src="assets/Katie-Bouman.png" alt="podcastimage2">
+                    <img src="assets/Margaret_Hamilton.png" alt="podcastimage3">
+                    <img src="assets/An E.R.A.Univac 1103 computer in the 1950s.png" alt="podcastimage4">
+                    <img src="assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="podcastimage5">
+                    <img src="assets/susan-kare.png" alt="podcastimage6">
+                </div>
+            </div>
+                <!-- cuarta parte del sitio, presentacion de los temas más populares --> 
+            <div class="fourthpart" id="temas">
+                <h2 class="title4"><span>Algunos de nuestros temas </span></h2>
+                    <div class="iconbar">
+                        <div>
+                            <img class="icon" src="assets/icon1.svg" alt="icono1">
+                            <p id="labelone">Trabajo Remoto</p>
+                        </div>
+                    <div>
+                        <img class="icon" src="assets/icon2.svg" alt="icono2">
+                        <p id="labeltwo">Repensando la programacion</p>
+                    </div>
+                    <div>
+                        <img class="icon" src="assets/icon3.svg" alt="icono3">
+                        <p id="labelthree">Bases del código</p>
+                    </div>
+                    <div>
+                        <img class="icon" src="assets/icon4.svg" alt="icono4">
+                        <p id="labelfour">Seguridad Informática</p>
+                    </div>
+                </div>
+            </div> 
+            <div class="boxtwo">
+                    <h2 id="title5">Querés las últimas novedades?</h2>
+                <div class="navbutton">
+                    <button class="buttontwo">Escuchá los episodios</button>
+                </div>   
+            </div> 
+            <div class="space"></div>
+        </main>
+            <!-- pie de la web, presentando el nombre de la web y links a redes sociales --> 
+        <footer>
+            <div class="end">
+                <div class="endtext"><p>© 2019— Hello blue pale dot</p></div>
+                <div class="redes">
+                        <a href="https://www.spotify.com"><i class="fa fa-spotify"></i></a>
+                        <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                        <a href="https://web.telegram.org/"><i class="fa fa-telegram"></i></a>
+                </div>
+            </div> 
+        </footer>
+        </body>
+</html>
+
